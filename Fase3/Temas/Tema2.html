@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas</title>
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <Article>
+            <div class="Atributos y Valores HTML">
+                <h1 class="Titulo">Atributos y Valores</h1>
+                <img src="Img\Atributo.png" alt="Tomado de gcfglobal (https://edu.gcfglobal.org/es/curso-basico-de-html/imagenes-y-links-en-html/1/)">
+                <p> 
+                    Los atributos de HTML son palabras especiales utilizadas dentro de la etiqueta de apertura, para 
+                    controlar el comportamiento del elemento. Los atributos de HTML son un modificador de un tipo de 
+                    elemento de HTML. Un atributo tampoco modifica la funcionalidad por defecto de un tipo de elemento 
+                    o proporciona funcionalidad a ciertos tipos de elementos incapaces de funcionar correctamente sin 
+                    ellos. En sintaxis HTML, un atributo se añade a una etiqueta de inicio de HTML.
+                    <br>
+                    <br>
+                    Se han reconocido varios tipos de atributos básicos, incluyendo: (1) atributos requeridos, 
+                    necesitados por un tipo de elemento particular, para que aquel tipo de elemento funcione 
+                    correctamente; (2) atributos opcionales, utilizados para modificar la funcionalidad por defecto 
+                    de un tipo de elemento; (3) atributos estándares, soportados por muchos tipos de elementos; y (4) 
+                    atributos de evento, utilizados para causar que los tipos de elemento especifiquen guiones o script 
+                    para ser ejecutados bajo circunstancias concretas.
+                    <br>
+                    <br>
+                    Los atributos de HTML generalmente se muestran como una pareja nombre-valor, separados por =, 
+                    y están escritos dentro de la etiqueta de inicio de un elemento, después del nombre del elemento:
+                    <br>
+                    <br>
+                    <img src="Img\Linea1.JPG">
+                    <br>
+                    <br>
+                    Dónde element nombra el tipo element del HTML, y atributte es el nombre del atributo puesto al value 
+                    (valor) proporcionado. El valor puede estar encerrado en comillas simples o dobles, aunque hay valores 
+                    compuestos de ciertos caracteres y que pueden quedar descomillados en HTML (pero no en XHTML).Dejar 
+                    valores de atributo descomillados se considera inseguro.
+                    <br>
+                    <br>
+                    A pesar de que la mayoría de los atributos se proporcionan como nombres y valores parejados, algunos 
+                    afectan a la simplicidad del elemento con su presencia en la etiqueta de inicio del elemento (como 
+                    el atributo ismap para el elementoimg).
+                    El elemento de abreviatura, abbr, se puede usar para mostar estos distintos atributos:
+                    <br>
+                    <br>
+                    <img src="Img\Linea2.JPG">
+                    <br>
+                    <br>
+                    Este ejemplo visualiza como HTML, y en la mayoría de los navegadores, al apuntar con el cursor en la abreviatura, debería mostrar el texto de título: "Hypertext Markup Language."
+                    La mayoría de elementos también toman la los atributos relativos a lenguas lang y dir.
+                </p>
+                <h1 class="Titulo">Atributos Comununes HTML</h1>
+                <p>
+                    La mayoría de elementos pueden tomar cualquiera de varios de los atributos comunes:
+                    <ul>
+                        <img src="Img\ParteEtiqueta.png" alt="Tomado de Rudy Carlos Miraya Vilchez 2020 (https://platzi.com/clases/2008-html-css/31085-anatomia-de-una-etiqueta-de-html/)">
+                        <br>
+                        <li><strong>El atributo id</strong> (identidad) proporciona un identificador único en el ámbito 
+                        de todo el documento para un elemento. Este puede ser utilizado como selector CSS para 
+                        proporcionar propiedades presentationales, por los navegadores para centrar la atención en el 
+                        elemento concreto, o por scripts (guiones) para alterar los contenidos o la presentación de un 
+                        elemento. Anexado a la URL de la página, la URL directamente apunta el elemento concreto dentro 
+                        del documento, típicamente una sub-sección de la página.</li>
+                        <br>
+                        <li><strong>El atributo class</strong> proporciona una manera de clasificar elementos similares. Esto puede ser 
+                        utilizado para propósitos semánticos, o para propósitos de presentación. Semantically, por ejemplo, las clases se 
+                        utilizan en microformatos. Presentacionalmente, por ejemplo, un documento HTML podría utilizar la 
+                        designaciónclass="notation" , para indicar que todos los elementos con esta clase de valor están subordinados al 
+                        texto principal del documento. Tales elementos podrían ser reunidos juntos y presentados como notas al pie en una 
+                        página, en vez de aparecer en el sitio donde se encuentran en la fuente de HTML.</li>
+                        <br>
+                        <li><strong>El atributo style</strong> donde un autor puede utilizar propiedades no presentacionales de código 
+                        atribucional de style para un elemento particular.El atributo de estilo se puede utilizar en 
+                        cualquier elemento de HTML ( se validará en cualquier elemento HTML; aun así, no es 
+                        necesariamente útil). Se consiera mejor práctica usar los atributos iddo classde un elemento 
+                        para seleccionar el elemento con una stylesheet (hoja de estilo), aunque a veces esto puede ser 
+                        demasiado pesado para una aplicación de propiedades de estilo simple y específico o ad hoc.</li>
+                        <br>
+                        <li><strong>El atributo de title</strong> (título) se suele usar para unir explicación subtextual a un elemento. 
+                        En la mayoría de los navegadores, este atributo se muestra como lo que a menudo se llama un tooltip o globo.</li><br>
+                    </ul>   
+                    <h2>Atributos Globales</h2> 
+                    <p>Los atributos globales, también conocidos como atributos estándares, funcionan 
+                    con un gran número de elementos. Incluyen los atributos estándares básicos: entre los que se encuentran accesskey, 
+                    class, contenteditable, contextmenu, data, dir, hidden (escondido), id, lang, style (estilo), tabindex, títle. Hay 
+                    también algunos experimentales. Tanto xml:lang , como xml:base ha sido depreciados. Los atributos aria-* múltiples 
+                    mejoran la accesibilidad. Los atributos de manejador de eventos, se listan más adelante en este página.
+                    Técnicamente todos los atributos globales tienen que ser aceptados por todos los elementos, 
+                    aunque no funcionen con algunos de ellos. La tabla inferior lista algunos atributos globales 
+                    comunes, y algunos de los elementos con los que pueden funcionar.</li>
+                    Tomado de Wikipedia, (mayo 2022) Atributo HTML. https://es.wikipedia.org/wiki/Atributo_HTML</p>
+                    <br>     
+                </p>
+            </div>       
+    </body>
+    </html>

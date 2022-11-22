@@ -1,8 +1,8 @@
 <!--Diseño design-->
 body{
-    background-color: rgb(238, 178, 106);
+    background-color: rgb(238, 202, 159);
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 300;  
 }
 
@@ -28,7 +28,7 @@ p, li{
     height: 260px;
     padding: 20px;
     margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     border-radius: 5px;
     background-color: rgb(247, 233, 217);
@@ -49,7 +49,7 @@ p, li{
     height: 300px;
     padding: 20px;
     margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     border-radius: 5px;
     background-color: rgb(247, 233, 217);
@@ -102,14 +102,12 @@ ol{
 
 .Menu > li {
     float: left;
+    position: justify;
 }
 
-.Menu ul li {
-    display: none;
+.Menu ul li:hover {
+    display: block;
     position: absolute;
     min-width: 100px;
 }
 
-.Menu ul:hover{
-    display: block;
-}
