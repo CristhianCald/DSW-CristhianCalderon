@@ -1,6 +1,5 @@
 <!--Diseño design-->
 body{
-    background-color: rgb(238, 202, 159);
     font-family: sans-serif;
     font-size: 25px;
     font-weight: 300;  
@@ -13,6 +12,7 @@ h1, ul{
     font-weight: bold;
     text-align: center;
     list-style: none;
+    letter-spacing: 2px;
 }
 
 p, li{
@@ -20,6 +20,7 @@ p, li{
     font: optional;
     font-family: sans-serif;
     text-align: justify;
+    letter-spacing: 2px;
 }
 
 .Logo, .Etiquetas{
