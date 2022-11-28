@@ -1,0 +1,114 @@
+<!--Diseño design-->
+body{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;  
+}
+
+h1, ul{
+    color: black;
+    font: optional;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    letter-spacing: 2px;
+}
+
+p, li{
+    color: black;
+    font: optional;
+    font-family: sans-serif;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.Logo, .Etiquetas{
+    margin: 40px;
+    width: 1200px;
+    height: 260px;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: rgb(247, 233, 217);
+    border-top: solid rgba(91, 106, 243, 0.726);
+}
+
+.Logo img, .Etiquetas img{
+    width: 300px;
+    height: 180px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Atributos{
+    margin: 40px;
+    width: 1200px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: rgb(247, 233, 217);
+    border-top: solid rgba(91, 106, 243, 0.726);
+}
+
+.Atributos img{
+    width: 300px;
+    height: 230px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Mockup{
+    margin: 40px;
+    width: 600px;
+    height: 460px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: rgb(247, 233, 217);
+    border-top: solid rgba(91, 106, 243, 0.726);
+}
+
+.Mockup img{
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+-----------------------
+ol{
+    list-style: none;
+}
+
+.Menu li a{
+    background-color: rgba(74, 85, 233, 0.938);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.Menu li a:hover{
+    background-color: rgb(196, 196, 187);
+}
+
+.Menu > li {
+    float: left;
+    position: justify;
+}
+
+.Menu ul li:hover {
+    display: block;
+    position: absolute;
+    min-width: 100px;
+}
+

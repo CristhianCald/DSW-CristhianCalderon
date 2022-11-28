@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;  
+}
+
+h1, h2, h3{
+    color: black;
+    font: optional;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    border-top: 10px;
+    letter-spacing: 2px;
+}
+
+p, footer{
+    color: black;
+    font: optional;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px; 
+    letter-spacing: 2px;
+}
+
+ul li, ul li{
+    color: black;
+    font: optional;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px; 
+    letter-spacing: 2px;
+    display: inherit;
+}
