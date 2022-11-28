@@ -23,8 +23,8 @@ p{
     text-align: justify;
     font-size: 20px;
     padding-top: 20px;
-    padding-left: 70px;
-    padding-right: 70px; 
+    padding-left: 100px;
+    padding-right: 100px; 
     letter-spacing: 2px;
 }
 
@@ -34,9 +34,9 @@ ul li{
     font-family: sans-serif;
     text-align: justify;
     font-size: 20px;
-    padding-top: 20px;
-    padding-left: 70px;
-    padding-right: 70px; 
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px; 
     letter-spacing: 2px;
     display: inherit;
     float: none;
@@ -51,12 +51,9 @@ ul li{
     padding-left: 30px;
 }
 
- .Atributos img:hover{
-    display: block;
-    width: 600px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 40px;
-    float: left;
-    padding-left: 30px;
+.Atributos footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
