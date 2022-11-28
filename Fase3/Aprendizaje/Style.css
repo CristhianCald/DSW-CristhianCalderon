@@ -15,7 +15,7 @@ h1, h2, h3{
     letter-spacing: 2px;
 }
 
-p, footer{
+p{
     color: black;
     font: optional;
     font-family: sans-serif;
@@ -38,4 +38,11 @@ ul li, ul li{
     padding-right: 100px; 
     letter-spacing: 2px;
     display: inherit;
+}
+
+footer{
+    color: black;
+    text-align: right;
+    font-size: 20px;; 
+    letter-spacing: 2px;
 }
