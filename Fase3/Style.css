@@ -85,7 +85,7 @@ p, li{
     margin: 10px;
 }
 -----------------------
-ol{
+ul{
     list-style: none;
 }
 
@@ -101,14 +101,17 @@ ol{
     background-color: rgb(196, 196, 187);
 }
 
-.Menu > li {
+.Menu > li{
     float: left;
-    position: justify;
 }
 
-.Menu ul li:hover {
-    display: block;
+.Menu li ul{
+    display: none;
     position: absolute;
-    min-width: 100px;
+    min-width: 140px;
+}
+
+.Menu li:hover > ul{
+    display: block;
 }
 
